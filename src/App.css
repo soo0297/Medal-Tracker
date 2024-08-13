@@ -1,0 +1,42 @@
+.container {
+  max-width: 1200px;
+  max-height: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: aliceblue;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.medalListTable {
+  width: 100%;
+  padding: 30px;
+}
+
+.medalListHead {
+  height: 50px;
+  background-color: rgb(69, 112, 252);
+  color: white;
+}
+
+.medalListBody {
+  background-color: white;
+  color: black;
+  tr {
+    height: 50px;
+  }
+}
