@@ -40,3 +40,8 @@
     height: 50px;
   }
 }
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 20px #252525a5 inset;
+}
